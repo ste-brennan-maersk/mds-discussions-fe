@@ -88,14 +88,14 @@ main {
 @font-face {
   font-family: 'Maersk Text';
   font-display: swap;
-  src: url('/MV100122VF.woff2');
+  src: url('/MaerskVariableVF.woff2');
 }
 
 /* Maersk Headline */
 @font-face {
   font-family: 'Maersk Headline';
   font-display: swap;
-  src: url('/MV100122VF.woff2');
+  src: url('/MaerskVariableVF.woff2');
 }
 
 main .pagination-loader-container {
@@ -120,6 +120,10 @@ body {
 
 .gsc-left-header em {
   display: none !important;
+}
+
+.gsc-loading-image {
+  background-image: none !important;
 }
 
 a {
