@@ -76,6 +76,7 @@
   "theme=transparent_dark": "Transparent Dark",
   "theme=preferred_color_scheme": "使用者偏好的色彩配置",
   "theme=custom": "自訂（實驗功能）",
+  "theme=mds": "MDS",
 
   "enableGiscus": "啟用 giscus",
   "addTheFollowingScriptTag": "在你想放置留言區的位置加上下列的 <code><script></code> 標籤。但如果已經存在使用 <code>giscus</code> class 的元素，留言區會出現在那邊。",

@@ -69,6 +69,7 @@
   "theme=transparent_dark": "Saydam Koyu",
   "theme=preferred_color_scheme": "Tercih edilen renk şeması",
   "theme=custom": "Özel (deneysel)",
+  "theme=mds": "MDS",
 
   "enableGiscus": "Giscus'ı etkinleştir",
   "addTheFollowingScriptTag": "Yorumların sitenizde görünmesini istediğiniz yerine <code><script></code> scriptini ekleyin. Eğer <code>giscus</code> classına sahip bir element bulunursa, yorumlar burada gözükür.",

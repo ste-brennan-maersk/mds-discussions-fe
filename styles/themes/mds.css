@@ -1,0 +1,242 @@
+/*! MIT License
+ * Copyright (c) 2018 GitHub Inc.
+ * https://github.com/primer/primitives/blob/main/LICENSE
+ */
+
+main {
+  --color-prettylights-syntax-comment: #6e7781;
+  --color-prettylights-syntax-constant: #0550ae;
+  --color-prettylights-syntax-entity: #8250df;
+  --color-prettylights-syntax-storage-modifier-import: #24292f;
+  --color-prettylights-syntax-entity-tag: #116329;
+  --color-prettylights-syntax-keyword: #cf222e;
+  --color-prettylights-syntax-string: #0a3069;
+  --color-prettylights-syntax-variable: #953800;
+  --color-prettylights-syntax-brackethighlighter-unmatched: #82071e;
+  --color-prettylights-syntax-invalid-illegal-text: #f6f8fa;
+  --color-prettylights-syntax-invalid-illegal-bg: #82071e;
+  --color-prettylights-syntax-carriage-return-text: #f6f8fa;
+  --color-prettylights-syntax-carriage-return-bg: #cf222e;
+  --color-prettylights-syntax-string-regexp: #116329;
+  --color-prettylights-syntax-markup-list: #3b2300;
+  --color-prettylights-syntax-markup-heading: #0550ae;
+  --color-prettylights-syntax-markup-italic: #24292f;
+  --color-prettylights-syntax-markup-bold: #24292f;
+  --color-prettylights-syntax-markup-deleted-text: #82071e;
+  --color-prettylights-syntax-markup-deleted-bg: #ffebe9;
+  --color-prettylights-syntax-markup-inserted-text: #116329;
+  --color-prettylights-syntax-markup-inserted-bg: #dafbe1;
+  --color-prettylights-syntax-markup-changed-text: #953800;
+  --color-prettylights-syntax-markup-changed-bg: #ffd8b5;
+  --color-prettylights-syntax-markup-ignored-text: #eaeef2;
+  --color-prettylights-syntax-markup-ignored-bg: #0550ae;
+  --color-prettylights-syntax-meta-diff-range: #8250df;
+  --color-prettylights-syntax-brackethighlighter-angle: #57606a;
+  --color-prettylights-syntax-sublimelinter-gutter-mark: #8c959f;
+  --color-prettylights-syntax-constant-other-reference-link: #0a3069;
+  --color-btn-text: rgb(20, 20, 20);
+  --color-btn-bg: #fff;
+  --color-btn-border: #c4c4c4;
+  --color-btn-shadow: none;
+  --color-btn-inset-shadow: none;
+  --color-btn-hover-bg: rgb(237, 237, 237);
+  --color-btn-hover-border: rgb(207, 207, 207);
+  --color-btn-active-bg: rgb(207, 207, 207);
+  --color-btn-active-border: rgb(207, 207, 207);
+  --color-btn-selected-bg: rgb(207, 207, 207);
+  --color-btn-primary-text: #fff;
+  --color-btn-primary-bg: #011a2e;
+  --color-btn-primary-border: #011a2e;
+  --color-btn-primary-shadow: none;
+  --color-btn-primary-inset-shadow: none;
+  --color-btn-primary-hover-bg: #032d59;
+  --color-btn-primary-hover-border: #032d59;
+  --color-btn-primary-selected-bg: #101010;
+  --color-btn-primary-selected-shadow: none;
+  --color-btn-primary-disabled-text: rgb(255 255 255 / 80%);
+  --color-btn-primary-disabled-bg: #6a7b88;
+  --color-btn-primary-disabled-border: #6a7b88;
+  --color-fg-default: #24292f;
+  --color-fg-muted: #57606a;
+  --color-fg-subtle: #6e7781;
+  --color-canvas-default: #fff;
+  --color-canvas-overlay: #fff;
+  --color-canvas-inset: #f5f5f5;
+  --color-canvas-subtle: #f5f5f5;
+  --color-border-default: #cfcfcf;
+  --color-border-muted: #e8e8e8;
+  --color-neutral-muted: rgb(175 184 193 / 20%);
+  --color-accent-fg: rgb(20, 20, 20);
+  --color-accent-emphasis: #a7d9f2;
+  --color-accent-muted: #e8e8e8;
+  --color-accent-subtle: #a7d9f2;
+  --color-success-fg: #40ab35;
+  --color-danger-fg: #b80012;
+  --color-primer-shadow-inset: none;
+  --color-primer-shadow-focus: none;
+  --color-scale-gray-1: #eaeef2;
+  --color-scale-blue-1: #b6e3ff;
+
+  /*! Extensions from @primer/css/alerts/flash.scss */
+  --color-social-reaction-bg-hover: var(--color-scale-gray-1);
+  --color-social-reaction-bg-reacted-hover: #b5e0f5;
+
+  color-scheme: light;
+}
+
+/* Maersk Text */
+@font-face {
+  font-family: 'Maersk Text';
+  font-display: swap;
+  src: url('/MV100122VF.woff2');
+}
+
+/* Maersk Headline */
+@font-face {
+  font-family: 'Maersk Headline';
+  font-display: swap;
+  src: url('/MV100122VF.woff2');
+}
+
+main .pagination-loader-container {
+  background-image: url('https://github.com/images/modules/pulls/progressive-disclosure-line.svg');
+}
+
+body {
+  font-family: 'Maersk Text', -apple-system, BlinkMacSystemFont, 'Microsoft JhengHei',
+    'Microsoft Yahei', 微软雅黑, STXihei, 华文细黑, sans-serif !important;
+  font-size: 16px !important;
+  font-feature-settings: 'kern' on, 'liga' on, 'calt' on, 'locl' on;
+  font-variation-settings: 'wght' 400, 'ital' 0, 'TEXT' 1;
+  color: rgb(20, 20, 20) !important;
+}
+
+.gsc-reactions {
+  display: none !important;
+}
+.gsc-comments {
+  padding-bottom: 24px !important;
+}
+
+.gsc-left-header em {
+  display: none !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: rgb(20, 20, 20) !important;
+}
+
+a:hover {
+  text-decoration: underline !important;
+  color: rgb(20, 20, 20) !important;
+}
+
+.link-primary:hover {
+  color: rgb(20, 20, 20) !important;
+}
+
+/* This needs removing when Github add the 
+functionality https://github.com/github/feedback/discussions/3968 */
+button[aria-label='Upvote'] {
+  display: none !important;
+}
+
+.btn {
+  min-height: 32px !important;
+  max-height: 32px !important;
+  border-radius: 4px !important;
+}
+
+.btn-primary {
+  color: #fff !important;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  color: #fff !important;
+  box-shadow: 0 0 0 3px #b5e0f5 !important;
+  text-decoration: none !important;
+}
+
+.BtnGroup-item {
+  border-radius: 0px !important;
+}
+.BtnGroup-item:first-child:not(:only-child) {
+  border-bottom-left-radius: 4px !important;
+  border-top-left-radius: 4px !important;
+}
+
+.BtnGroup-item:last-child:not(:only-child) {
+  border-bottom-right-radius: 4px !important;
+  border-top-right-radius: 4px !important;
+}
+
+.gsc-replies-count,
+.gsc-comments-count,
+.gsc-comments-count-separator,
+.gsc-reactions-count {
+  font-weight: 400 !important;
+  font-size: 14px;
+}
+
+.gsc-comment-author > div > span,
+.gsc-reply-author > div > span {
+  display: none !important;
+  height: 24px !important;
+  border-radius: 20px !important;
+  /* display: inline-flex; */
+  justify-content: center;
+  align-items: center;
+  background: rgb(237, 237, 237);
+  border-color: rgb(237, 237, 237);
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.gsc-social-reaction-summary-item {
+  height: 24px !important;
+  display: inline-flex !important;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.gsc-upvote-count {
+  min-width: auto;
+}
+
+.gsc-direct-reaction-button {
+  padding: 0 10px;
+}
+.gsc-direct-reaction-button > span {
+  height: auto !important;
+
+  width: auto !important;
+}
+
+.gsc-social-reaction-summary-item.popover {
+  padding: 0 3px !important;
+}
+
+.color-box-border-info {
+  border-radius: 4px !important;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  font-variation-settings: 'TEXT' 0, 'ital' 0, 'wght' 300 !important;
+  font-weight: 300 !important;
+}
+
+.form-control {
+  background-color: #fff;
+}
+.form-control:focus {
+  border-color: rgb(12, 160, 206) !important;
+  box-shadow: 0 0 0 3px rgb(181, 224, 245) !important;
+}
